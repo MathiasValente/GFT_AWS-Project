@@ -1,0 +1,74 @@
+<mxfile host="Electron">
+  <diagram name="Page-1" id="x0CTl6D6ivCGW4wqjwN7">
+    <mxGraphModel dx="1030" dy="626" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="gaEcOUI-7d-hAAWIg0Z1-21" parent="1" style="whiteSpace=wrap;html=1;shape=mxgraph.basic.cloud_rect;fillColor=none;strokeColor=light-dark(#000000,#FB6704);" value="" vertex="1">
+          <mxGeometry height="370" width="555" x="125" y="70" as="geometry" />
+        </mxCell>
+        <mxCell id="gaEcOUI-7d-hAAWIg0Z1-1" parent="1" style="outlineConnect=0;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;shape=mxgraph.aws3.iam;fillColor=#759C3E;gradientColor=none;" value="IAM&lt;div&gt;&lt;br&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="81" width="42" x="540" y="120" as="geometry" />
+        </mxCell>
+        <mxCell id="gaEcOUI-7d-hAAWIg0Z1-5" edge="1" parent="1" source="gaEcOUI-7d-hAAWIg0Z1-2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;flowAnimation=1;" target="gaEcOUI-7d-hAAWIg0Z1-4" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="gaEcOUI-7d-hAAWIg0Z1-2" parent="1" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" value="Equipe RH" vertex="1">
+          <mxGeometry height="60" width="30" x="340" y="545" as="geometry" />
+        </mxCell>
+        <mxCell id="gaEcOUI-7d-hAAWIg0Z1-4" parent="1" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.document2;whiteSpace=wrap;size=0.25;" value="arquivo com&lt;div&gt;novos usuários&lt;/div&gt;&lt;div&gt;e grupos&lt;/div&gt;" vertex="1">
+          <mxGeometry height="90" width="130" x="120" y="530" as="geometry" />
+        </mxCell>
+        <mxCell id="gaEcOUI-7d-hAAWIg0Z1-14" edge="1" parent="1" source="gaEcOUI-7d-hAAWIg0Z1-7" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;dashed=1;flowAnimation=1;" target="gaEcOUI-7d-hAAWIg0Z1-13" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="gaEcOUI-7d-hAAWIg0Z1-7" parent="1" style="outlineConnect=0;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;shape=mxgraph.aws3.s3;fillColor=#E05243;gradientColor=none;" value="S3" vertex="1">
+          <mxGeometry height="93" width="76.5" x="260" y="270" as="geometry" />
+        </mxCell>
+        <mxCell id="gaEcOUI-7d-hAAWIg0Z1-11" edge="1" parent="1" source="gaEcOUI-7d-hAAWIg0Z1-4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;dashed=1;flowAnimation=1;" target="gaEcOUI-7d-hAAWIg0Z1-7">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="170" y="317" />
+              <mxPoint x="240" y="317" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="gaEcOUI-7d-hAAWIg0Z1-12" connectable="0" parent="gaEcOUI-7d-hAAWIg0Z1-11" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="AWS CLI" vertex="1">
+          <mxGeometry relative="1" x="-0.1852" y="2" as="geometry">
+            <mxPoint y="49" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="keSndvUfOfOEmT8tw9e3-3" edge="1" parent="1" source="gaEcOUI-7d-hAAWIg0Z1-13" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;dashed=1;flowAnimation=1;" target="keSndvUfOfOEmT8tw9e3-1" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="gaEcOUI-7d-hAAWIg0Z1-13" parent="1" style="outlineConnect=0;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;shape=mxgraph.aws3.lambda;fillColor=#F58534;gradientColor=none;" value="LAMBDA" vertex="1">
+          <mxGeometry height="93" width="76.5" x="410" y="270" as="geometry" />
+        </mxCell>
+        <mxCell id="gaEcOUI-7d-hAAWIg0Z1-15" parent="1" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" value="Gerente RH" vertex="1">
+          <mxGeometry height="60" width="30" x="740" y="286.5" as="geometry" />
+        </mxCell>
+        <mxCell id="gaEcOUI-7d-hAAWIg0Z1-16" edge="1" parent="1" source="gaEcOUI-7d-hAAWIg0Z1-13" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.26;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;exitPerimeter=0;dashed=1;flowAnimation=1;" target="gaEcOUI-7d-hAAWIg0Z1-1">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="468" y="161" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="gaEcOUI-7d-hAAWIg0Z1-24" connectable="0" parent="gaEcOUI-7d-hAAWIg0Z1-16" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="Cria IAM Users e os&lt;div&gt;atribui a IAM Groups&lt;/div&gt;&lt;div&gt;de acordo com dados&lt;/div&gt;&lt;div&gt;do arquivo enviado&lt;/div&gt;" vertex="1">
+          <mxGeometry relative="1" x="-0.2401" y="2" as="geometry">
+            <mxPoint y="23" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="gaEcOUI-7d-hAAWIg0Z1-19" parent="1" style="ellipse;shape=cloud;whiteSpace=wrap;html=1;fillColor=light-dark(#000000,#FB6704);" value="AWS" vertex="1">
+          <mxGeometry height="50" width="75" x="150" y="90" as="geometry" />
+        </mxCell>
+        <mxCell id="keSndvUfOfOEmT8tw9e3-2" edge="1" parent="1" source="keSndvUfOfOEmT8tw9e3-1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;dashed=1;flowAnimation=1;" target="gaEcOUI-7d-hAAWIg0Z1-15" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="keSndvUfOfOEmT8tw9e3-1" parent="1" style="outlineConnect=0;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;shape=mxgraph.aws3.ses;fillColor=#D9A741;gradientColor=none;" value="SES" vertex="1">
+          <mxGeometry height="93" width="79.5" x="550" y="270" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
